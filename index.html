@@ -1,0 +1,17 @@
+<!doctype html>
+<html>
+<head>
+	<title>Jgglr - In touch.</title>
+</head>
+<body>
+	<button id="dothis">Do it.</button>
+	<div id="results"></div>
+	<script src="js/zepto.min.js"></script>
+	<script src="js/dothis.js"></script>
+	<script>
+		$('#dothis').click(function () {
+			DOTHIS.DoIt($('#results'));
+		});
+	</script>
+</body>
+</html>
